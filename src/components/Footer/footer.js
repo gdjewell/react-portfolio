@@ -10,7 +10,7 @@ import {
 
 export const Footer = () => {
   return (
-    <MDBFooter className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <MDBFooter className="footer d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <div className="me-5 d-none d-lg-block overlay-fix">
         <span>Let's Connect!</span>
       </div>

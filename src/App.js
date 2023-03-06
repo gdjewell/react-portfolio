@@ -15,7 +15,6 @@ function App() {
   const [page, setPage] = useState("Home");
 
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     await loadFull(engine);
   }, []);
 

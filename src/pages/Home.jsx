@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { useTypewriter } from 'react-simple-typewriter'
-import { faGoodreadsG } from '@fortawesome/free-brands-svg-icons'
+
 
 const Home = () => {
 
@@ -19,7 +19,7 @@ const Home = () => {
           <img src={myImage} alt="my image" className="profile-image" />
         </Col>
         <Col className="col-4 overlay-fix">
-          <h1 className="headline">Hi, I'm Greg. I'm a {text}</h1>
+          <h1 className="headline">Hi, I'm <span className="home-name">Greg Jewell</span>. I'm a <span className="type-text">{text}</span></h1>
         </Col>
       </Row>
     </section>

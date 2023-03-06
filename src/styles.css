@@ -1,3 +1,60 @@
+header {
+  padding: 0;
+}
+
+h1 {
+  color:black
+  }
+
+h2, .sent {
+  text-align: center;
+  margin: 15px 100px;
+  color:white;
+  }
+
+body {
+  background-color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height:100%;
+  }
+  
+main {
+  z-index: 4;
+
+}
+
+a {
+  color:black;
+}
+
+a:hover {
+  color:lime;
+}
+
+hr {
+    width: 20%;
+    border-style: dotted none none;
+    border-width: 10px;
+    border-color: yellow;
+    margin: auto;
+    padding-bottom: 2%;
+}
+ img {
+   overflow:hidden !important;
+ }
+
+
+.resume-viewer {
+ width: 100vw;
+ height: auto;
+}
+
 #tsparticles {
   background-size: cover;
   background-position: 50% 50%;
@@ -47,18 +104,21 @@ span {
 
 .headline {
   color:white;
+  font-weight: bold;
 }
 
 .nav-link:hover:before {
   transform: scaleX(1);
 }
 
-body {
-  background-color: #000000;
-}
+
 
 .hero-section {
 padding:3.4% 0;
+}
+
+.type-text {
+  color:lime;
 }
 
 .profile-image {
@@ -67,18 +127,7 @@ padding:3.4% 0;
   z-index: 5
 }
 
-header {
-  padding: 0;
-}
 
-h1 {
-  color:black
-  }
-  
-main {
-  z-index: 4;
-
-}
 
 .logo-image {
   height:3vw;
@@ -89,4 +138,67 @@ main {
   display:flex;
   align-items:center;
   justify-content:center;
+}
+
+
+
+.projectheading, .resumeheading {
+  color:white;
+  text-align:center;
+  font-size: 2em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+
+.project-list {
+  text-align:center;
+  justify-content:center;
+}
+
+
+
+.project-card {
+  height: 100%;
+  opacity: .75
+}
+
+.project-card:hover {
+  transform: scale(1.02) !important;
+  box-shadow: 0 0 15px 5px lime !important;
+}
+
+.project-image {
+margin: 0 auto;
+}
+
+.react-pdf__Page__textContent, .react-pdf__Page__annotations {
+  display:none;
+}
+
+.contact-button {
+  color: lime;
+  margin: 15px auto;
+}
+
+.form-layout {
+  margin:  2% 25%;
+  border: 2px solid white;
+}
+
+.button-layout {
+  margin: 2% 45%;
+  color: lime
+}
+
+.button-layout:hover {
+ background-color: green;
+}
+
+.footer {
+  position: absolute;
+			bottom: 0px;
+			height: 25px;
+			width: 100%;
+      background-color: black;
 }
