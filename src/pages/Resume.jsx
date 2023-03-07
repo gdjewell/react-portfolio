@@ -23,8 +23,8 @@ const Resume = () => {
         
       <Col className="resume-column col-12 text-align-center">
       <hr/>
-        <h3 className="d-flex justify-content-center">Feel free to download my resume here or view the resume below.</h3>
-        <a href="/react-portfolio/assets/resume/greg_jewell_resume.pdf">
+        <h3 className="d-flex justify-content-center" style={{color: "white"}}>Feel free to download my resume here or view the resume below.</h3>
+        <a href="https://drive.google.com/uc?export=download&id=1jouUWPPcHaFxsRgZYxYAmJjaMvI9pJox">
         <Button variant="outline-success " type="submit" className="contact-button d-flex justify-content-center" size="lg">
         Download
       </Button>

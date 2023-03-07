@@ -64,7 +64,7 @@ const Contact = () => {
 
   return (
   <>
-    <Form ref={form} onSubmit={handleSubmit} className="overlay-fix form-layout">
+    <Form ref={form} onSubmit={handleSubmit} className="overlay-fix form-layout" style={{maxWidth: "75%"}}>
       <h2>Reach out with any questions or comments.</h2>
       <Form.Group className="mx-3">
         <Form.Label>Name</Form.Label>

@@ -1,7 +1,7 @@
 export const projects = [
   {
     projectName: "Chuck'l",
-    imageFile: "react-portfolio/assets/images/chuck-le.jpg",
+    imageFile: "assets/images/chuck-le.jpg",
     url: "https://kcschaefs.github.io/chuckle-project/",
     description:
       "Get a laugh or two with a random joke generator. Also capable of generating bucket list items and riddles.",
@@ -10,7 +10,7 @@ export const projects = [
 
   {
     projectName: "Asteroids",
-    imageFile: "react-portfolio/assets/images/asteroid.jpg",
+    imageFile: "assets/images/asteroid.jpg",
     url: "https://asteroids.herokuapp.com/",
     description:
       "View a list of near earth asteroids, sign up to see detailed information about the asteroid, and add comments",
@@ -19,7 +19,7 @@ export const projects = [
 
   {
     projectName: "Weather Dashboard",
-    imageFile: "react-portfolio/assets/images/weather-dashboard.jpg",
+    imageFile: "assets/images/weather-dashboard.jpg",
     url: "https://gdjewell.github.io/weather-api-dashboard/",
     description:
       "Find the weather data for your local city, and see previous searches.  Utilizes openWeather API.",
