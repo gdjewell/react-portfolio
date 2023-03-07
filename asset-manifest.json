@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5119609a.css",
-    "main.js": "/react-portfolio/static/js/main.be2e5203.js",
+    "main.js": "/react-portfolio/static/js/main.c73387f0.js",
     "static/js/787.51972ac4.chunk.js": "/react-portfolio/static/js/787.51972ac4.chunk.js",
     "static/media/me.jpeg": "/react-portfolio/static/media/me.76a5682052265ac89102.jpeg",
     "static/media/greg_jewell_resume.pdf": "/react-portfolio/static/media/greg_jewell_resume.4e488a8125f9bbd593bc.pdf",
     "static/media/logo.png": "/react-portfolio/static/media/logo.bb443130dcd86b99b1ac.png",
     "index.html": "/react-portfolio/index.html",
     "main.5119609a.css.map": "/react-portfolio/static/css/main.5119609a.css.map",
-    "main.be2e5203.js.map": "/react-portfolio/static/js/main.be2e5203.js.map",
+    "main.c73387f0.js.map": "/react-portfolio/static/js/main.c73387f0.js.map",
     "787.51972ac4.chunk.js.map": "/react-portfolio/static/js/787.51972ac4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5119609a.css",
-    "static/js/main.be2e5203.js"
+    "static/js/main.c73387f0.js"
   ]
 }
